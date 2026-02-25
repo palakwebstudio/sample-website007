@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bliss Salon | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <nav class="navbar">
+  <h1 class="logo">Bliss Salon</h1>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="transformation.html">Before/After</a>
+    <a href="contact.html">Contact</a>
+  </div>
+ </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Luxury Care for Your Hair & Skin</h2>
+    <p>Professional salon services designed for you</p>
+  </div>
+</section>
+
+<section class="home-images">
+  <h2>Our Salon Experience</h2>
+  <div class="image-grid">
+    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035" alt="Salon interior">
+    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e" alt="Hair styling">
+    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15" alt="Makeup service">
+  </div>
+</section>
+
+<footer>
+  <p>Sample salon website designed by <strong>Palak Web Studio</strong></p>
+</footer>
+<script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+  }
+</script>
+</body>
+</html>
